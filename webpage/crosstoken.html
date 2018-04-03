@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cross Token</title>
+    <meta type="description" content="">
+    <!--Import Google Icon Font-->
+
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body id="crosstokenpage">
+
+<!--navbar-->
+<div id="navbar">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <!--
+                <img src="http://cross-hedge.mondev.pro/images/Logo_cyan_white-p-500.png" alt="Logo Cross Hedge" title="Logo Cross Hedge">
+                -->
+                <img src="media/Logo_cyan_white.png" alt="">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+            <ul id="" class="item-menu hide-on-med-and-down">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#benefits">Benefits</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="index.html#roadmap">Roadmap</a></li>
+                <li><a href="index.html#papers">Papers</a></li>
+                <li><a href="crosstoken.html" class="active">Cross Token</a></li>
+                <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="connecteduser"><label>John Saby</label></li>
+                <li class="r-menu loginb">
+                    <a class="btn">Log in</a>
+                </li>
+                <li class="r-menu logoutb   ">
+                    <a class="btn">Log out</a>
+                </li>
+
+
+                <!-- Dropdown Trigger -->
+                <li class="r-menu">
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
+                </li>
+            </ul>
+
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">EN </a></li>
+                <li><a href="#!">IT </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li class="pseudo"><label>John Saby</label></li>
+        <li class="r-menu-m loginb"><a class=" btn">Log in</a> </li>
+        <li class="r-menu-m logoutb"><a class=" btn">Log out</a> </li>
+        <li class="r-menu-m"><a class=" dropdown-trigger" href="#!" data-target="dropdown2">FR<i class="large material-icons">arrow_drop_down</i></a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#benefits">Benefits</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#roadmap">Roadmap</a></li>
+        <li><a href="index.html#papers">Papers</a></li>
+        <li><a href="crosstoken.html">Cross Token</a></li>
+        <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+    </ul>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#langEnMob">EN </a></li>
+        <li><a href="#langItMob">IT </a></li>
+    </ul>
+</div>
+<!--navbar-->
+
+    <!--sidesocial-->
+    <div class="sidesocial hide-on-med-and-down">
+        <div class="socials">
+            <div class="social facebooksocial">
+                <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=2252E3" alt="">
+                <span class="followers">54.000</span>
+            </div>
+
+            <div class="social instagramsocial">
+                <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=2252E3" alt="">
+                <span class="followers">54.000</span>
+            </div>
+
+            <div class="social youtubesocial">
+                <img src="https://icongr.am/material/youtube-play.svg?size=32&color=2252E3" alt="">
+                <span class="followers">54.000</span>
+            </div>
+
+            <div class="social linkedinsocial">
+                <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=2252E3" alt="">
+                <span class="followers">100 K</span>
+            </div>
+
+            <div class="social redditsocial">
+                <img src="https://icongr.am/simple/reddit.svg?size=32&color=2252E3" alt="">
+                <span class="followers">500 K</span>
+            </div>
+
+            <div class="social telegramsocial">
+                <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=2252E3" alt="">
+                <span class="followers">1 M</span>
+            </div>
+        </div>
+        <img src="media/chatfaq.png" alt="">
+
+    </div>
+    <!--sidesocial-->
+
+
+<!--signIn-->
+
+<div class="log_sign_in row">
+    <div class="col s12 closelog">
+        <img src="media/close.png" alt="" class="closelog">
+    </div>
+    <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
+    </div>
+    <div class="wrapper col s12  m6 l4">
+        <ul id="tabs-swipe-demo" class="tabs tablogsign">
+            <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
+            <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
+        </ul>
+
+        <!--log-->
+        <div id="login_form" class="col s12">
+            <div id="login-page" class="row">
+                <div class="col s12">
+                    <form class="login-form">
+                        <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-social-person-outline prefix"></i>
+                                <input id="username" type="text">
+                                <label for="username" class="center-align">Email</label>
+                            </div>
+                        </div>
+                        <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-action-lock-outline prefix"></i>
+                                <input id="password" type="password">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s6 m6 l6  row login-text">
+                                <div class="s12">
+                                    <p class="">
+                                        <a href="page-forgot-password.html">Forgot password ?</a>
+                                    </p>
+                                </div>
+                                <div class="s12 rememberme round">
+                                    <p>
+                                        <label for="remember-me">
+                                            <input type="checkbox" id="remember-me"/>
+                                            <span>Remember me</span>
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="input-field col s6 m6 l6 button-log">
+                                <a href="index.html" class="btn col s12">Log In</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--sign-->
+        <div id="signin_form" class="col s12 ">
+            <div id="signin-page" class="row">
+                <div class="col s12">
+                    <form class="login-form">
+                        <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-social-person-outline prefix"></i>
+                                <input id="usernamesign" type="text">
+                                <label for="username" class="center-align">Email</label>
+                            </div>
+                        </div>
+                        <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-action-lock-outline prefix"></i>
+                                <input id="passwordsign" type="password">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+
+                        <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-action-lock-outline prefix"></i>
+                                <input id="passwordsignrepeat" type="password">
+                                <label for="password">Repeat Password</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12 button-log button-sign">
+                                <a href="index.html" class="btn  col s12">Sign Up</a>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col s6">
+                                <img src="media/goconnect.png" alt="">
+                            </div>
+
+                            <div class="col s6">
+                                <img src="media/fbconnect.png" alt="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
+    </div>
+</div>
+
+<!--LogIn-->
+    <!--faq-->
+
+<div class="landing7 crosspage">
+    <div class="row">
+        <div class="col l4 offset-l1 m10 offset-m1 s12">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="col">Welcome to your Cross Hedge <span class="warningP">ICO account!</span></h2>
+                </div>
+                <div class="col s12">
+                    <p>
+                        We would like to thank you fro youe attention to our project. You’re in your personal account of Cross hedge token sale’s platform.
+
+
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col l6 m12 s12">
+            <div class="crosstokenbloc">
+                <div class="row">
+
+                    <div class="col s10 offset-s1">
+                        <p>Here you can find all necessary information you need to deposit funds, buy tokens, withdraw  tokens to your personal wallet</p>
+                    </div>
+
+                    <div class="col s10 offset-s1">
+                        <div class="row">
+                            <div class="col s4 token ">
+                                    <img src="media/crosstoken.png" alt="">
+                                    <span>Add a new Wallet</span>
+                            </div>
+
+                            <div class="col s4 token active">
+                                    <img src="media/crosstoken.png" alt="">
+                                    <span>Pass KYC</span>
+                            </div>
+
+                            <div class="col s4 token">
+                                    <img src="media/crosstoken.png" alt="">
+                                    <span>Make a New transaction</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s3 offset-s1 crosstokenlists">
+                        <div class="crosstokenlist">
+                            <label>
+                                <input name="group1" type="radio" checked />
+                                <span>Name</span>
+                            </label>
+                        </div>
+                        <div class="crosstokenlist">
+                            <label>
+                                <input name="group1" type="radio"  />
+                                <span>Wallet  one</span>
+                            </label>
+                        </div>
+                        <div class="crosstokenlist">
+                            <label>
+                                <input name="group1" type="radio"  />
+                                <span>Wallet  test</span>
+                            </label>
+                        </div>
+                        <div class="crosstokenlist">
+                            <label>
+                                <input name="group1" type="radio"  />
+                                <span>Wallet  two</span>
+                            </label>
+                        </div>
+                        <div class="crosstokenlist">
+                            <label>
+                                <input name="group1" type="radio"  />
+                                <span>Wallet  three</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col s7 ">
+                        <div class="row crosslinks">
+                            <a class="col s12" href="#readMore">Read more about KYC</a>
+                            <a class="col s12" href="#readMore">Read FAQ question about CRS</a>
+                        </div>
+                    </div>
+
+                    <div class="col s10 offset-s1 wallets">
+                        <label class="wallets">5 wallets created</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--faq-->
+
+    <footer class="page-footer">
+    <div class="row">
+        <div class="col s12  m2 offset-m1 l2 offset-l1 logo">
+            <img src="media/Logo_cyan_white.png" alt="">
+        </div>
+        <div class="col l2 m4 s11 offset-s1">
+            <h5>Contact</h5>
+            <a href="mailto:Contact@cross-hedge.com">Contact@cross-hedge.com</a>
+            <p>
+                Cross Hedge HQ</br>
+                128 Rue de la Boétie</br>
+                75008 Paris</br>
+                FRANCE
+            </p>
+        </div>
+
+
+        <div class="col l2 m4 s11 offset-s1 ">
+            <h5>Sitemap</h5>
+            <div class="row">
+                <div class="col s6 ">
+                    <ul>
+                        <li><a class="" href="#about">About</a></li>
+                        <li><a class="" href="#benefits">Benefits</a></li>
+                        <li><a class="" href="#team">Team</a></li>
+                        <li><a class="" href="#roadmap">Road Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col s6 ">
+                    <ul>
+                        <li><a class="" href="#papers">Papers</a></li>
+                        <li><a class="" href="crosstoken.html">Cross Token</a></li>
+                        <li><a class="" href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+                        <li><a class="" href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l4 m10 s10 offset-m1 offset-s1">
+            <h5>Be part of the community</h5>
+            <div class="rsfooter">
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/material/youtube-play.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
+                </a>
+                <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <div class="copyright">Policy Privacy © 2018 CROSS HEDGE All Rights Reserved
+    </div>
+</footer>
+<!--JavaScript at end of body for optimized loading-->
+<!-- Compiled and minified JavaScript -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $(".dropdown-trigger").dropdown();
+        $('.sidenav').sidenav();
+        $('.closelog').click(function() {
+            $('.log_sign_in').hide();
+            $('html').css('overflow','initial');
+        });
+        $('.loginb').click(function() {
+            $('.log_sign_in').show();
+            $('.loginb').hide();
+            $('.connecteduser').show();
+            $('.logoutb').show();
+            $('.pseudo').show();
+            $('html').css('overflow','hidden');
+        });
+        $(".token").click(function() {
+            $(".token").removeClass("active");
+            console.log($(this));
+            $(this).addClass("active");
+        });
+    });
+</script>
+</body>
+</html>

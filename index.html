@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.google.com/?selection.family=Roboto">
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+
+
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<!--navbar-->
+<div id="navbar">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <!--
+        <img src="http://cross-hedge.mondev.pro/images/Logo_cyan_white-p-500.png" alt="Logo Cross Hedge" title="Logo Cross Hedge">
+        -->
+        <img src="Logo_cyan_white.png" alt="">
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul id="" class="item-menu hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#pappers">Pappers</a></li>
+        <li><a href="webpage/crosstoken.html">Cross Token</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="webpage/faq.html">FAQ</a></li>
+        <li class="connecteduser"><label>John Saby</label></li>
+        <li class="r-menu waves-effect waves-light loginb">
+          <a class="btn">Log in</a>
+        </li>
+        <li class="r-menu waves-effect waves-light logoutb   ">
+          <a class="btn">Log out</a>
+        </li>
+
+
+        <!-- Dropdown Trigger -->
+        <li class="r-menu">
+          <a class="dropdown-trigger" href="#!" data-target="dropdown1">FR D <i class="large material-icons">arrow_drop_down</i></a>
+        </li>
+      </ul>
+
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">EN D</a></li>
+        <li><a href="#!">IT D</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li class="pseudo"><label>John Saby</label></li>
+    <li class="r-menu-m"><a class=" waves-effect waves-light btn">Log out</a> </li>
+    <li class="r-menu-m"><a class=" dropdown-trigger" href="#!" data-target="dropdown2">FR Mobile<i class="large material-icons">arrow_drop_down</i></a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">Roadmap</a></li>
+    <li><a href="#">Pappers</a></li>
+    <li><a href="webpage/crosstoken.html">Cross Token</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">FAQ</a></li>
+  </ul>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#langEnMob">EN mob</a></li>
+    <li><a href="#langItMob">IT mob</a></li>
+  </ul>
+</div>
+<!--navbar-->
+
+<!--sidesocial-->
+<div class="sidesocial hide-on-med-and-down">
+  <div class="socials">
+    <div class="social facebooksocial">
+      <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
+      <span class="followers">54.000</span>
+    </div>
+
+    <div class="social instagramsocial">
+      <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=00DFEB" alt="">
+      <span class="followers">54.000</span>
+    </div>
+
+    <div class="social youtubesocial">
+      <img src="https://icongr.am/material/youtube-play.svg?size=32&color=00DFEB" alt="">
+      <span class="followers">54.000</span>
+    </div>
+
+    <div class="social linkedinsocial">
+      <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+      <span class="followers">100 K</span>
+    </div>
+
+    <div class="social redditsocial">
+      <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
+      <span class="followers">500 K</span>
+    </div>
+
+    <div class="social telegramsocial">
+      <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
+      <span class="followers">1 M</span>
+    </div>
+  </div>
+  <img src="sidechat.png" alt="">
+
+</div>
+<!--sidesocial-->
+
+
+<!--signIn-->
+
+<div class="log_sign_in row">
+  <div class="col s12 closelog">
+    <img src="close.png" alt="" class="closelog">
+  </div>
+  <div class="wrapper col s2 l4 m3 opaque">
+  </div>
+  <div class="wrapper col s10  m6 l4">
+    <ul id="tabs-swipe-demo" class="tabs tablogsign">
+      <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
+      <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
+    </ul>
+
+    <!--log-->
+    <div id="login_form" class="col s12">
+      <div id="login-page" class="row">
+        <div class="col s12">
+          <form class="login-form">
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class="mdi-social-person-outline prefix"></i>
+                <input id="username" type="text">
+                <label for="username" class="center-align">Email</label>
+              </div>
+            </div>
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class="mdi-action-lock-outline prefix"></i>
+                <input id="password" type="password">
+                <label for="password">Password</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6 m6 l6  row login-text">
+                <div class="s12">
+                  <p class="">
+                    <a href="page-forgot-password.html">Forgot password ?</a>
+                  </p>
+                </div>
+                <div class="s12 rememberme round">
+                  <p>
+                    <label for="remember-me">
+                      <input type="checkbox" id="remember-me"/>
+                      <span>Remember me</span>
+                    </label>
+                  </p>
+                </div>
+              </div>
+
+              <div class="input-field col s6 m6 l6 button-log">
+                <a href="index.html" class="btn waves-effect waves-light col s12">Log In</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--sign-->
+    <div id="signin_form" class="col s12 ">
+      <div id="signin-page" class="row">
+        <div class="col s12">
+          <form class="login-form">
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class="mdi-social-person-outline prefix"></i>
+                <input id="usernamesign" type="text">
+                <label for="username" class="center-align">Email</label>
+              </div>
+            </div>
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class="mdi-action-lock-outline prefix"></i>
+                <input id="passwordsign" type="password">
+                <label for="password">Password</label>
+              </div>
+            </div>
+
+            <div class="row margin">
+              <div class="input-field col s12">
+                <i class="mdi-action-lock-outline prefix"></i>
+                <input id="passwordsignrepeat" type="password">
+                <label for="password">Repeat Password</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12 button-log button-sign">
+                <a href="index.html" class="btn waves-effect waves-light col s12">Sign Up</a>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col s6">
+                <img src="goconnect.png" alt="">
+              </div>
+
+              <div class="col s6">
+                <img src="fbconnect.png" alt="">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper col s2 l4 m3 opaque">
+  </div>
+</div>
+
+<!--LogIn-->
+
+<!--gradient-->
+<div class="gradrient">
+
+  <div class="container-fluid">
+
+    <!--join-->
+    <div class="row landing1">
+      <div class="col l4 m4 offset-l1 offset-m1 hide-on-small-only">
+        <img src="join.png" alt="">
+      </div>
+
+      <div class="col s12  l4 offset-l1 m4 offset-m1">
+        <div class="row">
+          <h1 class="col s12">Join the next generation of fund management</h1>
+
+          <p class="col s8">
+            Cross Hedge Focuses on building<span class="warningP"> a better financial future </span>for all by democratizing the access to fund and asset management through AI & Technology
+          </p>
+          <h4 class="col s9 warningP">Coming Spring 2018</h4>
+          <p class="col s9">
+            Be part of our community</br>
+            #XHCommunity</br>
+            #CrossHedgeICO
+          </p>
+          <div class="col s12 counter">
+            <div id="counter">
+              <div class="table_row row_1">
+
+                <div class="table_cell grd">
+                  <span id="days" class="days">33</span>
+                </div>
+                <div class="table_cell">
+                  <span>:</span>
+                </div>
+                <div class="table_cell">
+                  <span id="hours" class="hours">02</span>
+                </div>
+
+                <div class="table_cell">
+                  <span>:</span>
+                </div>
+                <div class="table_cell">
+                  <span id="minutes" class="minutes">27</span>
+                </div>
+                <div class="table_cell">
+                  <span>:</span>
+                </div>
+                <div class="table_cell">
+                  <span id="seconds" class="seconds">13</span>
+                </div>
+              </div>
+
+              <!--
+              <div class="table_row row_2">
+                <div class="table_cell">
+                  <span class="days">DAYS</span>
+                </div>
+                <div class="table_cell">
+                </div>
+                <div class="table_cell">
+                  <span class="hours">HOURS</span>
+                </div>
+                <div class="table_cell">
+                </div>
+                <div class="table_cell">
+                  <span class="minutes">MINUTES</span>
+                </div>
+                <div class="table_cell">
+                </div>
+                <div class="table_cell">
+                  <span class="seconds">SECONDS</span>
+                </div>
+              </div>
+
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--join-->
+
+    <!--What is cross hedge-->
+    <div class="row landing2">
+      <h2 class="col s10 offset-s1">
+        What is <span class="warningP">Cross Hedge?</span>
+      </h2>
+      <div class="col s2 offset-s1">
+        <img src="whatis.png" alt="">
+      </div>
+
+      <div class="col s7 offset-s1">
+        <p>
+          Launched in 2018, Crosshedge is a team of highly experienced financial industry professionals with a unified passion for uncompromising technology. Our core investment philosophy is to maximize diversification empowered by technology and Artificial intelligence in order to provide absolute returns through Smartpieces™.
+          <br><br>
+          We believe that inefficiencies on investment strategies arise from insufficient diversification. To overcome this restriction, we design intelligent investment systems that evolve in parallel with the financial markets fluctuations and hit trends. We gather and clean vast, rich datasets that will help us better understand how markets behave.
+          This approach is rooted in science, using statistical and mathematical modelling, AI, machine learning, data visualization and pattern recognition technique.
+          <br><br>
+          Crosshedge plans to offer and distribute investment SmartContracts through Smartpieces™ with a price directly resulting from the investment vehicles returns. Every person wishing to invest could freely and with no capital floor access a diversified portfolio respecting transparency through the use of Blockchain for both valuation and distribution.  
+          <br><br>
+          The Smartpieces<sup>TM</sup> provide the freedom of one crypto-asset with the stability on returns from an innovative quantitative Hedge Fund.
+        </p>
+
+        <div class="video">
+          <a class="waves-effect waves-light btn-large">Watch our video</a>
+          <span><i class="material-icons">play_arrow</i></span>
+
+          <video class="responsive-video materialboxed" controls>
+            <source src="toro-y-moi-girl-like-you.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <!--What is cross hedge-->
+
+    <!--keybenefits-->
+    <div class="landing3 container-fluid">
+      <div class="row">
+        <h2 class="col s10 offset-s1">Key Benefits</h2>
+
+        <div class="col l4 m4 s12 b-left">
+          <div class="row">
+            <div class="col s12 benefit-space">
+            </div>
+
+            <div class="col s8 offset-s2">
+
+              <div class="benefit">
+                <h6>Original</h6>
+                <p>Rooted in Stellar blockchain. A reliable open source decentralized blockchain for faster, cheaper and more reliable transactions.</p>
+              </div>
+            </div>
+            <div class="col s12 divid"></div>
+            <div class="row col s8 offset-s2">
+              <div class="benefit">
+                <h6>Dynamic</h6>
+                <p>Smart contracts allow instantaneous and more secure transactions. Forget about minimum time commitment, you can withdraw Smartpieces<sup>TM</sup> freely.</p>
+              </div>
+            </div>
+
+            <div class="col s12 divid"></div>
+
+            <div class="row col s8 offset-s2">
+              <div class="benefit">
+                <h6>Innovative</h6>
+                <p>A fund that provides investment solutions to cryptocurrency holders thanks to the latest AI investment technologies in line with our vision.</p>
+              </div>
+            </div>
+
+            <div class="col s12 divid"></div>
+
+            <div class="row col s8 offset-s2">
+
+              <div class="benefit">
+                <h6>Authorized</h6>
+                <p>We will be one of the first regulated crypto-investment funds in Europe, creating a bridge between classic financial assets and crypto-assets.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col l4 m4 s12">
+          <div class="benefit-space"></div>
+          <img src="benefits.png" alt="">
+        </div>
+
+        <div class="col l4 m4 s12 b-right">
+
+          <div class="row">
+
+            <div class="col s8 offset-s2">
+
+              <div class="benefit">
+                <h6>Accessible</h6>
+                <p>
+                  A solution with zero discrimination and a very low capital floor for all cryptocurrencies holders to invest in.
+                </p>
+              </div>
+            </div>
+            <div class="col s12 divid"></div>
+            <div class="row col s9 offset-s2">
+              <div class="benefit">
+                <h6>Free</h6>
+                <p>
+                  No managing fee. Cross Hedge only earns money when the community get the positive returns they are promised.
+                </p>
+              </div>
+            </div>
+
+            <div class="col s12 divid"></div>
+
+            <div class="row col s8 offset-s2">
+              <div class="benefit">
+                <h6>Participatory</h6>
+                <p>
+                  A participative model where our community builders are rewarded bi-yearly each time the community profits increase.
+                </p>
+              </div>
+            </div>
+
+            <div class="col s12 divid"></div>
+
+            <div class="row col s8 offset-s2">
+
+              <div class="benefit">
+                <h6>Easy to use</h6>
+                <p>
+                  A simple and effective multi-channels digital platform app to manage and invest your assets.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--keybenefits-->
+
+    <!--team-->
+    <div class="row landing4">
+      <div class="row">
+        <h2 class="col s10 offset-s1">Team</h2>
+        <div class="col s3 offset-s1">
+          <img class="teamimg" src="team.png" alt="">
+        </div>
+
+        <div class="col s7">
+          <div class="row center">
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">John Saby</span>
+                  <p>CEO, Funder</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Mister X</span>
+                  <p>CEO, Co-funder</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                      <span class="card-title ">Geoffroy Bolle
+</span>
+                  <p>New Business Development Director</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Xavier Vincent-Sully</span>
+                  <p>CEO, co-funder</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Cynthia Kambou</span>
+                  <p>CMO</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Marie Le Nestour</span>
+                  <p>Project Manager</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Mehdi ben Jeddou</span>
+                  <p>IT Project Manager</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Olivier Roquigny</span>
+                  <p>IT Developer</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Benjamin Le Nestour</span>
+                  <p>Stellar Expert</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">Arvi Lefèvre</span>
+                  <p>Stellar Expert</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--team-->
+
+    <!--advisors-->
+    <div class="row landing5">
+      <div class="row">
+        <h2 class="col s10 offset-s1">Advisors</h2>
+        <div class="col s3 offset-s1">
+          <img class="teamimg" src="advisors.png" alt="">
+        </div>
+
+        <div class="col s7">
+          <div class="row center">
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="member">
+                  <img src="equipe.png" alt="" class="trans-effect circle responsive-img">
+                </div>
+
+                <div class="card-content">
+                  <span class="card-title ">XXXX</span>
+                  <p>XXXX</p>
+                  <a href="#" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--advisors-->
+  </div>
+</div>
+<!--gradient-->
+
+
+<div class="roadmap landing6">
+  <div class="row">
+    <h2 class="col s10 offset-s1">Road map</h2>
+
+    <div class="col s8 offset-s2">
+      <img src="roadmap.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="landing7">
+  <div class="row">
+    <h2 class="col s11 offset-s1">Pappers</h2>
+
+    <div class="col s1">
+    </div>
+    <div class="col s2">
+      <div class="pdf">
+        <a href="">
+          <img src="ico_pdf.png" alt="">White paper</a>
+      </div>
+
+    </div>
+
+    <div class="col s2">
+      <div class="pdf">
+        <a href="">
+          <img src="ico_pdf.png" alt="">Technical paper</a>
+      </div>
+
+    </div>
+
+    <div class="col s2">
+      <div class="pdf">
+        <a href="">
+          <img src="ico_pdf.png" alt="">Light paper</a>
+      </div>
+
+    </div>
+
+    <div class="col s2">
+      <div class="pdf">
+        <a href="">
+          <img src="ico_pdf.png" alt="">Terms of Token Sale</a>
+      </div>
+
+    </div>
+    <div class="col s2">
+      <div class="pdf">
+        <a href="">
+          <img src="ico_pdf.png" alt="">Bounty Program</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <h2 class="col s10 offset-s1">Our partners</h2>
+
+    <div class="col s6 offset-s5">
+      <div class="row">
+
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+
+        <div class="col s4 partner">
+          <img src="" alt="logo partner" alt="" title="">
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="page-footer">
+  <div class="row">
+    <div class="col s12  m2 offset-m1 l2 offset-l1 logo">
+      <img src="Logo_cyan_white.png" alt="">
+    </div>
+    <div class="col l2 m2 s11 offset-s1">
+      <h5>Contact</h5>
+      <a href="mailto:Contact@cross-hedge.com">Contact@cross-hedge.com</a>
+      <p>
+        Cross Hedge HQ</br>
+        128 Rue de la Boétie</br>
+        75008 Paris</br>
+        FRANCE
+      </p>
+    </div>
+
+
+    <div class="col l2 m2 s11 offset-s1 ">
+      <h5>Sitemap</h5>
+      <div class="row">
+        <div class="col s6 ">
+          <ul>
+            <li><a class="" href="#!">About</a></li>
+            <li><a class="" href="#!">Services</a></li>
+            <li><a class="" href="#!">Team</a></li>
+            <li><a class="" href="#!">Road Map</a></li>
+          </ul>
+        </div>
+
+        <div class="col s6 ">
+          <ul>
+            <li><a class="" href="#!">Pappers</a></li>
+            <li><a class="" href="#!">Cross Token</a></li>
+            <li><a class="" href="#!">Blog</a></li>
+            <li><a class="" href="#!">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col l4 m4 s10 offset-s1">
+      <h5>Be part of the community</h5>
+      <div class="rsfooter">
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
+        </a>
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=00DFEB" alt="">
+        </a>
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/material/youtube-play.svg?size=32&amp;color=00DFEB" alt="">
+        </a>
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/entypo/linkedin.svg?size=32&amp;color=00DFEB" alt="">
+        </a>
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
+        </a>
+        <a href="#" class="trans-effect">
+          <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  <div class="copyright">Policy Privacy © 2018 CROSS HEDGE All Rights Reserved
+  </div>
+</footer>
+<!--JavaScript at end of body for optimized loading-->
+<!-- Compiled and minified JavaScript -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script type="text/javascript">
+
+
+    $(document).ready(function(){
+        $(".dropdown-trigger").dropdown();
+        $('.sidenav').sidenav();
+        $('.tabs').tabs();
+
+        $('.closelog').click(function() {
+            $('.log_sign_in').hide();
+        });
+        $('.loginb').click(function() {
+            $('.log_sign_in').show();
+            $('.loginb').hide();
+            $('.connecteduser').show();
+            $('.logoutb').show();
+        });
+        $('.video a').click(function() {
+            $('.materialboxed').materialbox();
+            $('.materialboxed').css("display", 'block');
+        });
+    });
+</script>
+</body>
+</html>
