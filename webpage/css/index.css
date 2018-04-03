@@ -13,7 +13,9 @@
 @font-face{font-family:'Roboto-LightItalic';src:url('fonts/Roboto/Roboto-LightItalic.ttf') format('ttf');}
 @font-face{font-family:'Roboto-Medium';src:url('fonts/Roboto/Roboto-Medium.ttf') format('ttf');}
 @font-face{font-family:'Roboto-MediumItalic';src:url('fonts/Roboto/Roboto-MediumItalic.ttf') format('ttf');}
-@font-face{font-family:'Roboto-Regular';src:url('fonts/Roboto/Roboto-Regular.ttf') format('ttf');}
+@font-face{font-family:'Roboto-Regular';src:url('fonts/Roboto-Regular-webfont.woff') format('woff');}
+/*
+@font-face{font-family:'Roboto-Regular';src:url('fonts/Roboto/Roboto-Regular.ttf') format('ttf');}*/
 @font-face{font-family:'Roboto-Thin';src:url('fonts/Roboto/Roboto-Thin.ttf') format('ttf');}
 @font-face{font-family:'Roboto-ThinItalic';src:url('fonts/Roboto/Roboto-ThinItalic.ttf') format('ttf');}
 /*robotomono*/
