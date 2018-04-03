@@ -1,0 +1,103 @@
+/*
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+*/
+
+
+.slogan{
+	padding: 1em 0 1em 20%;
+	margin: 0 auto;
+	left: 30%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	background: #393939;
+	box-shadow: 0px 3px 10px #116e8d inset;
+}
+
+.container{
+	text-align: center;
+	padding: 3em 2em;
+	width: 100%;
+}
+
+#counter{
+	border: 1px solid #005f84;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px #005f84 inset;
+	background: #ecf5f8;
+	padding: 1em;
+	display: inline-block;
+	text-align: center;
+}
+
+.amount_raised {
+  background: #0F1C4E;
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  min-height: 150px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+
+.amount_raised h3 {
+  color: #0F1C4E;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#counter .table {
+}
+
+#counter .table .cell {
+	padding: 2px;
+	text-align: center;
+}
+
+#counter .table .row_1 {
+	font-size: 2em;
+	font-family: Courier New, monospace;
+	font-weight: bold;
+}
+
+#counter .table .row_2 {
+	font-size: .5em;
+}
+
+.container .target {
+	font-size: .8em;
+}
+
+.container .amount_raised {
+	font-size: .8em;
+}
+
+.container .level_bar {
+	border: 1px solid #116e8d;
+	border-radius: 2px;
+	background: #fff;
+	margin: 0 auto;
+	max-width: 25em;
+	position: relative;
+}
+
+.container .level {
+	position: absolute;
+	left: 0;
+	width: 35%;
+	background-color: #a7dff2;
+	height: 100%;
+	z-index: 1;
+}
+
+.container .funded {
+	z-index: 2;
+	position: relative;
+}
