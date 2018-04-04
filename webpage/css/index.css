@@ -187,8 +187,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .crosstokenbloc p{font-family: RobotoMono-Regular;text-align: center;font-size: 18px;line-height: 30px;padding: 0px 30px;}
 .crosslinks a{text-align: right; color:#2252E3;font-size: 12px;}
 .token{cursor:pointer;text-align: center;}
-.token span{color:#2252E3;font-family: Roboto-Regular;font-size: 16px;background: #fff;height: 50px;    display: block;border-radius:5px;
-    vertical-align: middle;padding-top: 10px; width: 100%;  text-align: center;}
+.token span{color:#2252E3;font-family: Roboto-Regular;font-size: 16px;background: #fff;height: 50px;    display: table-cell;vertical-align:middle;border-radius:5px; width:30vw;  text-align: center;}
 .token span:hover, .token.active span{color:#fff;background: #2252E3;}
 .crosstokenlists{overflow: scroll;height: 210px;}
 .crosstokenlist{margin:20px 0;}
@@ -262,4 +261,21 @@ and (-webkit-min-device-pixel-ratio: 1) {
     a.dropdown-trigger {padding-left: 10px;}
     .landing1 img {margin: 60% 0%;}
     .card .card-content p {height: 7vh;}
+    .token span{font-size: 12px;}
+}
+/*ipad pro*/
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .collapsible-header {font-family: RobotoMono-Regular;color: #00E7F0;font-size: 1.667em;}
+    .faqbuttons a {font-size:0.800em;}
+    nav ul a{font-size:.75em!important;}
+    #navbar label{font-size:.75em!important;}
+    .r-menu{margin-left:1em;width:5vw;}
+    a.dropdown-trigger {padding-left: 10px;}
+    .landing1 img {margin: 60% 0%;}
+    .card .card-content p {height: 7vh;}
+    .token span{font-size: 12px;}
 }
