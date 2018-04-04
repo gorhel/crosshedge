@@ -65,6 +65,16 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 .video i{border-radius: 30px;border:1px solid #00DFEB;font-size: 54px;vertical-align: middle;cursor: pointer;}
 .video i:hover{background:#00DFEB;}
 .materialboxed{display:none;}
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
 .responsive-video{width: 100vw;background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
 .btn:hover, .btn-large:hover, .btn-small:hover {background-color: #00DFEB;}
 .materialboxed:hover:not(.active){opacity:1;}
