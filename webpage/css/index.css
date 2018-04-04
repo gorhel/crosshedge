@@ -15,6 +15,7 @@ body{width:100vw;font-family:Roboto-Regular;font-size:1em;}
 nav{background:#0C1330;height:100px;padding: 10px 30px;line-height: 30px;}
 #navbar label {color: #00DFEB;font-size: 1em;    margin-left: 2vw;text-align: center;font-family: Roboto-Bold;}
 #navbar .btn {background: transparent;}
+.landing1 p,.landing2 p, .benefit p, .crossp, .faq p{text-align: justify;}
 /*
 #navbar .dropdown-trigger{color: #00DFEB;background: transparent;    border: 1px solid #00DFEB;border-radius: 5px;}
 */
@@ -67,6 +68,12 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 .responsive-video{width: 100vw;background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
 .btn:hover, .btn-large:hover, .btn-small:hover {background-color: #00DFEB;}
 .materialboxed:hover:not(.active){opacity:1;}
+#about .closelog{    width: unset;
+    margin: 0;
+    right: 10px;
+    position: absolute;
+    background: #000;
+    padding-top: 0;  }
 /*whatis*/
 .landing2 p{margin-top: 0;}
 /*keybenefits*/
@@ -171,6 +178,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .collapsible-header, .collapsible-body{border-bottom: none;}
 .landing7{margin-bottom:50px;margin-top:60px;}
 .collapsible-header:focus{outline:none;}
+.faq .collapsible{margin-top: 0;}
 .landing7 .sidesocial{bottom: 15vh;}
 /*landing7 faq*/
 
