@@ -53,13 +53,13 @@
 
             <!-- Dropdown Trigger -->
             <li class="r-menu">
-              <a class="dropdown-trigger" href="#!" data-target="dropdown1">FR D <i class="large material-icons">arrow_drop_down</i></a>
+              <a class="dropdown-trigger"  data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
             </li>
           </ul>
 
           <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">EN D</a></li>
-            <li><a href="#!">IT D</a></li>
+            <li><a href="#langEn">EN</a></li>
+            <li><a href="#langIt">IT</a></li>
           </ul>
         </div>
       </nav>
@@ -462,7 +462,7 @@
         <!--keybenefits-->
 
         <!--team-->
-        <div class="row landing4">
+        <div class="row landing4" id="team">
           <div class="row">
             <h2 class="col s10 offset-s1">Team</h2>
             <div class="col l3 offset-l1 m2 offset-m1 s3 offset-s1 hide-on-small-only">
@@ -674,7 +674,7 @@
     <!--gradient-->
 
 
-    <div class="roadmap landing6">
+    <div class="roadmap landing6" id="roadmap">
       <div class="row">
         <h2 class="col s10 offset-s1">Road map</h2>
 
@@ -686,7 +686,7 @@
 
 
 
-    <div class="landing7">
+    <div class="landing7" id="papers">
       <div class="row">
         <h2 class="col s11 offset-s1">Papers</h2>
 
@@ -813,7 +813,7 @@
         <div class="col l4 m10 s10 offset-m1 offset-s1">
           <h5>Be part of the community</h5>
           <div class="rsfooter">
-            <a href="#" class="trans-effect">
+            <a href="https://www.facebook.com/CrossHedgeICO" class="trans-effect">
               <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
             </a>
             <a href="#" class="trans-effect">
@@ -822,13 +822,13 @@
             <a href="#" class="trans-effect">
               <img src="https://icongr.am/material/youtube-play.svg?size=32&amp;color=00DFEB" alt="">
             </a>
-            <a href="#" class="trans-effect">
+            <a href="https://www.linkedin.com/company/cross-hedge/" class="trans-effect">
               <img src="https://icongr.am/entypo/linkedin.svg?size=32&amp;color=00DFEB" alt="">
             </a>
             <a href="#" class="trans-effect">
               <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
             </a>
-            <a href="#" class="trans-effect">
+            <a href="https://t.me/CrossHedge_ICO" class="trans-effect">
               <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
             </a>
           </div>
@@ -866,6 +866,12 @@
               $('html').css('overflow','hidden');
           });
           $('.video a').click(function() {
+              $('html').css('overflow','hidden');
+              $('.materialboxed').materialbox();
+              $('.materialboxed').css('display', 'block');
+          });
+
+          $('.video i').click(function() {
               $('html').css('overflow','hidden');
               $('.materialboxed').materialbox();
               $('.materialboxed').css('display', 'block');

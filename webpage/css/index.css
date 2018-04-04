@@ -64,7 +64,7 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 .video i{border-radius: 30px;border:1px solid #00DFEB;font-size: 54px;vertical-align: middle;}
 .video i:hover{background:#00DFEB;}
 .materialboxed{display:none;}
-.responsive-video{background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
+.responsive-video{width: 100vw;background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
 .btn:hover, .btn-large:hover, .btn-small:hover {background-color: #00DFEB;}
 .materialboxed:hover:not(.active){opacity:1;}
 /*whatis*/
@@ -81,6 +81,7 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 /*team landing4*/
 .card{box-shadow: none;position: inherit;}
 .landing4 .card,.landing5 .card {background-color: transparent;}
+.teamimg{margin:60% 0;}
 .card .card-title{color:#00DFEB;font-size:16px;height: 7vh;}
 .card .card-content{padding: 24px 0;}
 .card .card-content p{color:#FFCB05;font-size: 16px;height: 10vh;}
@@ -89,6 +90,7 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 /*team landing4*/
 /*advisors landing5*/
 .landing5{margin-bottom:0;}
+.landing5 .teamimg{margin:20% 0;}
 /*advisors landing5*/
 /*gradient */
 /*landing6*/
@@ -144,6 +146,10 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .closelog{top:1vh;margin-top: 3vh;cursor:pointer;margin-left: 20vw;    background: #2252E3;opacity: 0.9;text-align: right;padding-top: 20px;margin-top:0;}
 
 /*login sign in*/
+
+/*landing7 papers*/
+#papers img{width: auto;margin:0;}
+/*landing7 papers*/
 
 /*landing7 faq*/
 .landing7 h2 {color:#2252E3;line-height: 60px;margin-bottom: 40px;}
@@ -232,3 +238,24 @@ span.puce {
 .crosspage img{width:auto;}
 
 /*crosstoken*/
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .collapsible-header {
+        font-family: RobotoMono-Regular;
+        color: #00E7F0;
+        font-size: 1.667em;
+    }
+    .faqbuttons a {font-size:0.800em;}
+    nav ul a{font-size:.75em!important;}
+    #navbar label{font-size:.75em!important;}
+    .r-menu{margin-left:1em;width:5vw;}
+    a.dropdown-trigger {padding-left: 10px;}
+    .landing1 img {margin: 60% 0%;}
+    .card .card-content p {height: 7vh;}
+}
