@@ -364,7 +364,7 @@
                   <!-- Modal Trigger -->
                   <div class="video">
                   <a class=" btn-large modal-trigger" href="#modal1">Watch our video</a>
-                  <a lass=" btn-large modal-trigger" href="#modal1" ><span><i class="material-icons modal-trigger">play_arrow</i></span></a>
+                    <span><i class="material-icons modal-trigger">play_arrow</i></span>
                   </div>
 
                 </div>
@@ -914,6 +914,10 @@
           });
           */
           $('.modal-trigger').leanModal();
+          $('.video i').click(function(){
+              $('.modal-trigger').leanModal();
+              $('html').css('overflow','hidden');
+          });
           $('#about .closelog').click(function(){
               $('.modal').css("display", "none");
           });
