@@ -62,7 +62,7 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 .landing2 img{margin:15% 0%;}
 .video{color:#FFCB05;margin:60px 0;}
 .video a{background: transparent;color:#FFCB05;border:1px solid #00DFEB;margin-right: 5vw;}
-.video i{border-radius: 30px;border:1px solid #00DFEB;font-size: 54px;vertical-align: middle;}
+.video i{border-radius: 30px;border:1px solid #00DFEB;font-size: 54px;vertical-align: middle;cursor: pointer;}
 .video i:hover{background:#00DFEB;}
 .materialboxed{display:none;}
 .responsive-video{width: 100vw;background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
