@@ -72,8 +72,9 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
     left: 0px;
     height:100%;
     width:100%;
-    background: #000;
+    background: #2252E3;
     display: none;
+    opacity: .8!important;
 }
 .responsive-video{width: 100vw;background:#000;padding:5vh 5vw;position: fixed;top: 0;top: 0;left: 0;bottom: 0;right: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: contain;-webkit-transition: opacity .25s;transition: opacity .25s;height:100vh!important;}
 .btn:hover, .btn-large:hover, .btn-small:hover {background-color: #00DFEB;}
@@ -136,8 +137,8 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .followers{vertical-align: super;}
 /*sidesocial*/
 /*login sign in*/
-.log_sign_in {width: 100vw;height: 100vh;position: fixed;z-index: 99;top:0;display: none;}
-.log_sign_in .wrapper{background: #2252E3;height:100%;}
+.log_sign_in {width: 100vw;height: 100vh;position: fixed;z-index: 99;top:0;}
+.log_sign_in .wrapper{background: #2252E3;height:100%;margin-top: 5vh;}
 .opaque{opacity: 0.9;background: #2252E3;}
 .log_sign_in .input-field .prefix ~ input{margin-left:0;width: 100%;background:#fff;border-radius:5px;}
 .log_sign_in .input-field.col .prefix ~ label{margin-left:1em;}
@@ -159,8 +160,9 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
     border-bottom: 3px solid #FFCB05;}
 [type="checkbox"]+span:not(.lever){padding-left: 25px;}
 .button-log a{height: 50px;color:#2252E3;background:#00DFEB;margin-top:20px;padding-top:5%!important;}
-.wrapper{padding-top: 15vh!important;}
-.closelog{top:1vh;margin-top: 3vh;cursor:pointer;margin-left: 20vw;    background: #2252E3;opacity: 0.9;text-align: right;padding-top: 20px;margin-top:0;}
+
+.wrapper{padding-top: 10vh!important;}
+.closelog{top:1vh;margin-top: 3vh;cursor:pointer;margin-left: 20vw;opacity: 0.9;text-align: right;padding-top: 20px;margin-top:0;}
 
 /*login sign in*/
 
@@ -253,7 +255,9 @@ span.puce {
     background-clip: content-box;
 }
 .crosspage img{width:auto;}
-
+.modal{background-color:transparent;    max-height: 100vh;}
+#modallogin{top:0!important;}
+#modallogin .modal-content{padding: 0;}
 /*crosstoken*/
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */

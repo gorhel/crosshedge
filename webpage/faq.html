@@ -848,6 +848,15 @@
 <script type="text/javascript">
 
     $(document).ready(function(){
+        if (document.location.href.indexOf("whatisasmartpiece")>= 0){
+            $(".faqservices").show();
+            $(".faqtechnology").hide();
+            $(".faqico").hide();
+            $(".faqcompany").hide();
+            $(".faqgeneral").hide();
+
+
+        }
         $('.closelog').click(function() {
             $('.log_sign_in').hide();
             $('html').css('overflow','initial');
