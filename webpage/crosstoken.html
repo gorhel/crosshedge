@@ -39,12 +39,12 @@
                 <li><a href="index.html#team">Team</a></li>
                 <li><a href="index.html#roadmap">Roadmap</a></li>
                 <li><a href="index.html#papers">Papers</a></li>
-                <li><a href="crosstoken.html" class="active">Cross Token</a></li>
+                <li><a href="crosstoken.html">Cross Token</a></li>
                 <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li class="connecteduser"><label>John Saby</label></li>
                 <li class="r-menu loginb">
-                    <a class="btn">Log in</a>
+                    <a class="btn modal-trigger-login" href="#modallogin">Log in</a>
                 </li>
                 <li class="r-menu logoutb   ">
                     <a class="btn">Log out</a>
@@ -53,22 +53,22 @@
 
                 <!-- Dropdown Trigger -->
                 <li class="r-menu">
-                    <a class="dropdown-trigger" href="#!" data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
+                    <a class="dropdown-trigger"  data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
                 </li>
             </ul>
 
             <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">EN </a></li>
-                <li><a href="#!">IT </a></li>
+                <li><a href="#langEn">EN</a></li>
+                <li><a href="#langIt">IT</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
         <li class="pseudo"><label>John Saby</label></li>
-        <li class="r-menu-m loginb"><a class=" btn">Log in</a> </li>
+        <li class="r-menu-m loginb"><a class=" btn modal-trigger-login" href="#modallogin">Log in</a> </li>
         <li class="r-menu-m logoutb"><a class=" btn">Log out</a> </li>
-        <li class="r-menu-m"><a class=" dropdown-trigger" href="#!" data-target="dropdown2">FR<i class="large material-icons">arrow_drop_down</i></a></li>
+        <li class="r-menu-m"><a class=" dropdown-trigger" href="#fr" data-target="dropdown2">FR <i class="large material-icons">arrow_drop_down</i></a></li>
         <li><a href="index.html#about">About</a></li>
         <li><a href="index.html#benefits">Benefits</a></li>
         <li><a href="index.html#team">Team</a></li>
@@ -125,121 +125,119 @@
     </div>
     <!--sidesocial-->
 
-
 <!--signIn-->
 
-<div class="log_sign_in row">
-    <div class="col s12 closelog">
-        <img src="media/close.png" alt="" class="closelog">
-    </div>
-    <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
-    </div>
-    <div class="wrapper col s12  m6 l4">
-        <ul id="tabs-swipe-demo" class="tabs tablogsign">
-            <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
-            <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
-        </ul>
+<div class="log_sign_in row  modal" id="modallogin">
+    <div class="modal-content">
+        <div class="col s12 closelog">
+            <img src="media/close.png" alt="" class="closelog">
+        </div>
+        <div class="wrapper col s4 offset-s4">
+            <ul id="tabs-swipe-demo" class="tabs tablogsign">
+                <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
+                <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
+            </ul>
 
-        <!--log-->
-        <div id="login_form" class="col s12">
-            <div id="login-page" class="row">
-                <div class="col s12">
-                    <form class="login-form">
-                        <div class="row margin">
-                            <div class="input-field col s12">
-                                <i class="mdi-social-person-outline prefix"></i>
-                                <input id="username" type="text">
-                                <label for="username" class="center-align">Email</label>
-                            </div>
-                        </div>
-                        <div class="row margin">
-                            <div class="input-field col s12">
-                                <i class="mdi-action-lock-outline prefix"></i>
-                                <input id="password" type="password">
-                                <label for="password">Password</label>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input-field col s6 m6 l6  row login-text">
-                                <div class="s12">
-                                    <p class="">
-                                        <a href="page-forgot-password.html">Forgot password ?</a>
-                                    </p>
+            <!--log-->
+            <div id="login_form" class="col s12">
+                <div id="login-page" class="row">
+                    <div class="col s12">
+                        <form class="login-form">
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-social-person-outline prefix"></i>
+                                    <input id="username" type="text">
+                                    <label for="username" class="center-align">Email</label>
                                 </div>
-                                <div class="s12 rememberme round">
-                                    <p>
-                                        <label for="remember-me">
-                                            <input type="checkbox" id="remember-me"/>
-                                            <span>Remember me</span>
-                                        </label>
-                                    </p>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="password" type="password">
+                                    <label for="password">Password</label>
                                 </div>
                             </div>
 
-                            <div class="input-field col s6 m6 l6 button-log">
-                                <a href="index.html" class="btn col s12">Log In</a>
+                            <div class="row">
+                                <div class="input-field col s6 m6 l6  row login-text">
+                                    <div class="s12">
+                                        <p class="">
+                                            <a href="page-forgot-password.html">Forgot password ?</a>
+                                        </p>
+                                    </div>
+                                    <div class="s12 rememberme round">
+                                        <p>
+                                            <label for="remember-me">
+                                                <input type="checkbox" id="remember-me"/>
+                                                <span>Remember me</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s6 m6 l6 button-log">
+                                    <a href="index.html" class="btn col s12">Log In</a>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--sign-->
+            <div id="signin_form" class="col s12 ">
+                <div id="signin-page" class="row">
+                    <div class="col s12">
+                        <form class="login-form">
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-social-person-outline prefix"></i>
+                                    <input id="usernamesign" type="text">
+                                    <label for="username" class="center-align">Email</label>
+                                </div>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="passwordsign" type="password">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="passwordsignrepeat" type="password">
+                                    <label for="password">Repeat Password</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 button-log button-sign">
+                                    <a href="index.html" class="btn  col s12">Sign Up</a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="media/goconnect.png" alt="">
+                                </div>
+
+                                <div class="col s6">
+                                    <img src="media/fbconnect.png" alt="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!--sign-->
-        <div id="signin_form" class="col s12 ">
-            <div id="signin-page" class="row">
-                <div class="col s12">
-                    <form class="login-form">
-                        <div class="row margin">
-                            <div class="input-field col s12">
-                                <i class="mdi-social-person-outline prefix"></i>
-                                <input id="usernamesign" type="text">
-                                <label for="username" class="center-align">Email</label>
-                            </div>
-                        </div>
-                        <div class="row margin">
-                            <div class="input-field col s12">
-                                <i class="mdi-action-lock-outline prefix"></i>
-                                <input id="passwordsign" type="password">
-                                <label for="password">Password</label>
-                            </div>
-                        </div>
-
-                        <div class="row margin">
-                            <div class="input-field col s12">
-                                <i class="mdi-action-lock-outline prefix"></i>
-                                <input id="passwordsignrepeat" type="password">
-                                <label for="password">Repeat Password</label>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input-field col s12 button-log button-sign">
-                                <a href="index.html" class="btn  col s12">Sign Up</a>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-                            <div class="col s6">
-                                <img src="media/goconnect.png" alt="">
-                            </div>
-
-                            <div class="col s6">
-                                <img src="media/fbconnect.png" alt="">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
     </div>
 </div>
 
 <!--LogIn-->
+
     <!--faq-->
 
 <div class="landing7 crosspage">
@@ -415,9 +413,16 @@
 <!-- Compiled and minified JavaScript -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/jquery.leanModal.min.js"></script>
 <script type="text/javascript">
 
     $(document).ready(function(){
+        $('.tabs').tabs();
+        $('.modal-trigger-login').leanModal();
+        $('.modal-trigger-login').click(function() {
+            $('.pseudo').show();
+            $('.connecteduser').show();
+        });
         $(".dropdown-trigger").dropdown();
         $('.sidenav').sidenav();
         $('.closelog').click(function() {

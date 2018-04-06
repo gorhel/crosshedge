@@ -348,7 +348,11 @@
             <!-- Modal Trigger -->
             <div class="video">
               <a class=" btn-large modal-trigger" href="#ourvideo">Watch our video</a>
-              <span><i class="material-icons modal-trigger">play_arrow</i></span>
+              <span>
+                                <a class=" modal-trigger" href="#ourvideo">
+                                    <i class="material-icons modal-trigger">play_arrow</i>
+                                </a>
+                            </span>
             </div>
 
           </div>
@@ -877,36 +881,15 @@
             $('html').css('overflow','initial');
         });
 
-        /*
-        $('.loginb').click(function() {
-            $('.log_sign_in').show();
-            $('.loginb').hide();
-            $('.connecteduser').show();
-            $('.logoutb').show();
-            $('.pseudo').show();
-            $('html').css('overflow','hidden');
-        });
-        */
-        /*
-        $('.video a').click(function() {
-            $('html').css('overflow','hidden');
-            $('.materialboxed').materialbox();
-            $('.materialboxed').css('display', 'block');
-        });
-
-        $('.video i').click(function() {
-            $('html').css('overflow','hidden');
-            $('.materialboxed').materialbox();
-            $('.materialboxed').css('display', 'block');
-        });
-        */
         $('.modal-trigger').leanModal();
 
         $('.modal-trigger-login').leanModal();
+        $('.modal-trigger-login').click(function() {
+            $('.pseudo').show();
+            $('.connecteduser').show();
+        });
         $('.video i').click(function(){
             $('.modal-trigger').leanModal();
-
-            $('html').css('overflow','hidden');
         });
         $('#about .closelog').click(function(){
             $('.modal').css("display", "none");

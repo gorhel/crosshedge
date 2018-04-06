@@ -21,84 +21,83 @@
 
 <body>
 
-    <!--navbar-->
-    <div id="navbar">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo">
-                    <!--
-                    <img src="http://cross-hedge.mondev.pro/images/Logo_cyan_white-p-500.png" alt="Logo Cross Hedge" title="Logo Cross Hedge">
-                    -->
-                    <img src="media/Logo_cyan_white.png" alt="">
-                </a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<!--navbar-->
+<div id="navbar">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <!--
+                <img src="http://cross-hedge.mondev.pro/images/Logo_cyan_white-p-500.png" alt="Logo Cross Hedge" title="Logo Cross Hedge">
+                -->
+                <img src="media/Logo_cyan_white.png" alt="">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-                <ul id="" class="item-menu hide-on-med-and-down">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#benefits">Benefits</a></li>
-                    <li><a href="index.html#team">Team</a></li>
-                    <li><a href="index.html#roadmap">Roadmap</a></li>
-                    <li><a href="index.html#papers">Papers</a></li>
-                    <li><a href="crosstoken.html">Cross Token</a></li>
-                    <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
-                    <li><a href="faq.html" class="active">FAQ</a></li>
-                    <li class="connecteduser"><label>John Saby</label></li>
-                    <li class="r-menu loginb">
-                        <a class="btn">Log in</a>
-                    </li>
-                    <li class="r-menu logoutb   ">
-                        <a class="btn">Log out</a>
-                    </li>
+            <ul id="" class="item-menu hide-on-med-and-down">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#benefits">Benefits</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="index.html#roadmap">Roadmap</a></li>
+                <li><a href="index.html#papers">Papers</a></li>
+                <li><a href="crosstoken.html">Cross Token</a></li>
+                <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="connecteduser"><label>John Saby</label></li>
+                <li class="r-menu loginb">
+                    <a class="btn modal-trigger-login" href="#modallogin">Log in</a>
+                </li>
+                <li class="r-menu logoutb   ">
+                    <a class="btn">Log out</a>
+                </li>
 
 
-                    <!-- Dropdown Trigger -->
-                    <li class="r-menu">
-                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">FR<i class="large material-icons">arrow_drop_down</i></a>
-                    </li>
-                </ul>
+                <!-- Dropdown Trigger -->
+                <li class="r-menu">
+                    <a class="dropdown-trigger"  data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
+                </li>
+            </ul>
 
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="#!">EN D</a></li>
-                    <li><a href="#!">IT D</a></li>
-                </ul>
-            </div>
-        </nav>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#langEn">EN</a></li>
+                <li><a href="#langIt">IT</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-            <li class="pseudo"><label>John Saby</label></li>
-            <li class="r-menu-m loginb"><a class=" btn">Log in</a> </li>
-            <li class="r-menu-m logoutb"><a class=" btn">Log out</a> </li>
-            <li class="r-menu-m"><a class=" dropdown-trigger" href="#!" data-target="dropdown2">FR <i class="large material-icons">arrow_drop_down</i></a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#benefits">Benefits</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="index.html#roadmap">Roadmap</a></li>
-            <li><a href="index.html#papers">Papers</a></li>
-            <li><a href="crosstoken.html">Cross Token</a></li>
-            <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-        </ul>
+    <ul class="sidenav" id="mobile-demo">
+        <li class="pseudo"><label>John Saby</label></li>
+        <li class="r-menu-m loginb"><a class=" btn modal-trigger-login" href="#modallogin">Log in</a> </li>
+        <li class="r-menu-m logoutb"><a class=" btn">Log out</a> </li>
+        <li class="r-menu-m"><a class=" dropdown-trigger" href="#fr" data-target="dropdown2">FR <i class="large material-icons">arrow_drop_down</i></a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#benefits">Benefits</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#roadmap">Roadmap</a></li>
+        <li><a href="index.html#papers">Papers</a></li>
+        <li><a href="crosstoken.html">Cross Token</a></li>
+        <li><a href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+    </ul>
 
-        <!-- Dropdown Structure -->
-        <ul id="dropdown2" class="dropdown-content">
-            <li><a href="#langEnMob">EN </a></li>
-            <li><a href="#langItMob">IT </a></li>
-        </ul>
-    </div>
-    <!--navbar-->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#langEnMob">EN </a></li>
+        <li><a href="#langItMob">IT </a></li>
+    </ul>
+</div>
+<!--navbar-->
     <!--sidesocial-->
 
     <!--sidesocial-->
 
-    <!--signIn-->
+<!--signIn-->
 
-    <div class="log_sign_in row">
+<div class="log_sign_in row  modal" id="modallogin">
+    <div class="modal-content">
         <div class="col s12 closelog">
             <img src="media/close.png" alt="" class="closelog">
         </div>
-        <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
-        </div>
-        <div class="wrapper col s12  m6 l4">
+        <div class="wrapper col s4 offset-s4">
             <ul id="tabs-swipe-demo" class="tabs tablogsign">
                 <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
                 <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
@@ -199,11 +198,10 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper col s2 l4 m3 opaque hide-on-small-only">
-        </div>
     </div>
+</div>
 
-    <!--LogIn-->
+<!--LogIn-->
     <!--faq-->
 
 <div class="landing7 faq">
@@ -845,9 +843,16 @@
 <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script type="text/javascript">
+    <script src="js/jquery.leanModal.min.js"></script>
+    <script type="text/javascript">
 
     $(document).ready(function(){
+        $('.tabs').tabs();
+        $('.modal-trigger-login').leanModal();
+        $('.modal-trigger-login').click(function() {
+            $('.pseudo').show();
+            $('.connecteduser').show();
+        });
         if (document.location.href.indexOf("whatisasmartpiece")>= 0){
             $(".faqservices").show();
             $(".faqtechnology").hide();
