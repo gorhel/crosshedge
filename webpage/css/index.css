@@ -20,7 +20,8 @@ nav{background:#0C1330;height:100px;padding: 10px 30px;line-height: 30px;}
 #navbar .dropdown-trigger{color: #00DFEB;background: transparent;    border: 1px solid #00DFEB;border-radius: 5px;}
 */
 
-nav ul a:hover, nav ul a:active{color: #00DFEB;font-family:Roboto-Bold;}
+nav ul a:hover, nav ul a:active{color: #00DFEB;}
+.activea{color:#00DFEB;}
 nav .nav-wrapper {padding-top: 10px;}
 .nav-wrapper label{font-weight: 700;}
 .item-menu{margin-left: 20vw;margin-top: 10px;}
