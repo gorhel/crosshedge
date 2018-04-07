@@ -2,7 +2,7 @@ console.log('test: ' + ("00" + 3).slice(-2) + ' :: ' + ("00" + 10).slice(-2));
 window.onload = function(){
 	window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
-	var dateOpenICO = new Date('2018-05-01T00:00:00Z');
+	var dateOpenICO = new Date('2018-05-15T09:00:00Z');
 
 	function getTimeRemaining(endtime){
 		var t = Date.parse(endtime) - Date.parse(new Date());

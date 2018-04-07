@@ -90,13 +90,17 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 /*whatis*/
 .landing2 p{margin-top: 0;}
 /*keybenefits*/
+.landing3{margin-top: 10vh;}
 .landing3 img {margin-top: 30px;}
 .benefit h6{font-size: 2em;color:#FFCB05;font-family: Roboto-Regular;}
-.benefit p{font-size: 1.067em;color:#FFF;}
+.benefit p{font-size: 1.067em;color:#00DFEB;}
 .benefit-space{height: 140px}
 .b-left{text-align: right;}
 .b-left .divid{  height: 3px;  background: #3a6186;  /* fallback for old browsers */  background: -webkit-linear-gradient(to right, #00DFEB, transparent);  /* Chrome 10-25, Safari 5.1-6 */  background: linear-gradient(to right, #00DFEB, transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  }
 .b-right .divid{  height: 3px;background: #3a6186;  /* fallback for old browsers */background: -webkit-linear-gradient(to left, #00DFEB, transparent);  /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to left, #00DFEB, transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  }
+.b-right .benefit p{padding-right: 3vw;}
+.b-left .benefit p{padding-left: 3vw;}
+.divid + div{margin-bottom: 0;}
 /*keybenefits*/
 /*team landing4*/
 .card{box-shadow: none;position: inherit;}
@@ -104,10 +108,11 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 .teamimg{margin:60% 0;}
 .card .card-title{color:#00DFEB;font-size:16px;height: 7vh;}
 .card .card-content{padding: 24px 0;}
-.card .card-content p{color:#FFCB05;font-size: 16px;height: 10vh;}
+.card .card-content p{color:#FFCB05;font-size: .9em;min-height:10vh;}
 .member a img {width: 2em!important;}
 .card .card-content .card-title{}
-/*team landing4*/
+.landing4 .card-title{font-family: RobotoMono-Regular;font-size:1em;}
+    /*team landing4*/
 /*advisors landing5*/
 .landing5{margin-bottom:0;}
 .landing5 .teamimg{margin:20% 0;}
@@ -119,7 +124,8 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 /*landing6*/
 /*pdf*/
 .pdf{text-align: center;margin-bottom: 40px;}
-.pdf a{display: inline-grid;}
+.pdf a{display: inline-grid;text-align: -webkit-center;}
+.pdf span{color:#FFCB05;font-size: .65em;}
 .pdf img{padding-bottom: 20px; margin: auto}
 /*footer*/
 footer{background-color:#0C1330!important;color:#00DFEB!important; }
@@ -133,10 +139,12 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 /*footer*/
 
 /*sidesocial*/
-.sidesocial{position: fixed;right: 2vw;color: #00DFEB;}
+.sidesocial{position: fixed;right: 2vw;color: #00DFEB;margin-top: 10vh;}
 .social{border:1px solid #00DFEB;border-radius:5px;margin-bottom: 15px;
-    height: 40px;}
-.followers{vertical-align: super;}
+    height: 40px;    display: flex;justify-content: space-around;}
+.social img{width:24px;}
+.social a{width:100%;}
+.followers{vertical-align: middle;font-size: 12px;    margin: auto 0;color:#00DFEB;}
 /*sidesocial*/
 /*login sign in*/
 .log_sign_in {width: 100vw;height: 100vh;position: fixed;z-index: 99;top:0;}
@@ -148,6 +156,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .login-text a{}
 .login-text .rememberme label{color:#00DFEB!important;font-size:14px;}
 #signin_form .input-field{margin:0;}
+.tabs .tab a:focus, .tabs .tab a:focus.active{background-color:transparent;outline:none;}
 .tablogsign{background: transparent;display: flex;justify-content: space-between;}
 .tabs .tab a{color:#FFF;padding: 0;}
 .tablogsign a{text-transform:initial;color:#fff;}
@@ -178,7 +187,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 .landing7 h2 {color:#2252E3;line-height: 60px;margin-bottom: 40px;}
 .landing7 p{color:#2252E3;font-family: Roboto-Regular;font-size: 16px;line-height: 25px;}
 .landing7 .btn{background: #00DFEB;color:#2252E3;text-transform: none;width: 100%;margin-top:20px;}
-.landing7 img{width:100%;margin: 30% 0;}
+.landing7 img{width:100%;margin: 10% 0;}
 .faqgeneral, .faqico, .faqservices, .faqtechnology{display: none;}
 .collapsible-header {
     font-family: RobotoMono-Regular;
@@ -233,6 +242,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
     margin-bottom: 40px;}
 #crosstokenpage .social{border: 1px solid #2252E3;}
 #crosstokenpage .sidesocial{color:#2252E3;}
+#crosstokenpage .followers{color:#2252E3;}
 span.puce {
     display: list-item;
     list-style-type: disc;
@@ -303,5 +313,11 @@ and (max-device-width: 1180px){
     nav ul a{padding: 0 15px;}
     #navbar label{margin-left: 0;}
     .r-menu{margin-left: 1vw;}
-    nav{padding: 10px 0px;;}
+    nav{padding: 10px 0px;}
+}
+
+@media only screen
+and (max-device-width: 1024px){
+    h1{font-size:2.5em;}
+
 }
