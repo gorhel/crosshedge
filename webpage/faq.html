@@ -379,7 +379,7 @@
                     <div class="collapsible-body row">
                         <p class="col s10">
                             During the Initial Coin Offering (ICO), Cross Hedge will issue  tokens called  CROSS on the Stellar blockchain.
-                            We will also use Stellar after the ICO for <a href="faq.html#whatisasmartpiece">Smartpieces<sup>TM</sup></a> distribution.
+                            We will also use Stellar after the ICO for <a id="smartpieces" href="faq.html#whatisasmartpiece">Smartpieces<sup>TM</sup></a> distribution.
                         </p>
                     </div>
                 </li>
@@ -649,7 +649,7 @@
                     <div class="collapsible-header" id="whatisasmartpiece">What is a Smartpiece<sup style="top: 0.25em;">TM</sup>?
                         <i class="material-icons warningP">add</i>
                     </div>
-                    <div class="collapsible-body row">
+                    <div class="collapsible-body row" id="smartpiecesRef">
                         <p class="col s10">
                             A Smartpiece<sup>TM</sup> is a share unit of fund coded in a smart contract. Smart contracts are computer protocols that facilitate, verify and execute the negotiation or execution of a contract, or make a contractual clause useless (because related to the smart contract).
                             <br><br>
@@ -851,15 +851,14 @@
             $('.connecteduser').show();
             $('#navbar').removeClass( "navbar-fixed");
         });
-        if (document.location.href.indexOf("whatisasmartpiece")>= 0){
-            $(".faqservices").show();
-            $(".faqtechnology").hide();
-            $(".faqico").hide();
-            $(".faqcompany").hide();
-            $(".faqgeneral").hide();
-
-
-        }
+        $('#smartpieces').click(function () {
+            $(".faqservices").css("display","block");
+            $(".faqtechnology").css("display","none");
+            $(".faqico").css("display","none");
+            $(".faqcompany").css("display","none");
+            $(".faqgeneral").css("display","none");
+            $("#smartpiecesRef").css("display", "block");
+        });
         $('.closelog').click(function() {
             $('.log_sign_in').hide();
             $('html').css('overflow','initial');
