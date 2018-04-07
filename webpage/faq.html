@@ -864,6 +864,7 @@
             $('html').css('overflow','initial');
             $('#navbar').addClass( "navbar-fixed");
         });
+
         $('.loginb').click(function() {
             $('.log_sign_in').show();
             $('.loginb').hide();
@@ -914,6 +915,9 @@
             $(".faqico").hide();
             $(".faqservices").hide();
             $(".faqcompany").hide();
+        });
+        $(".modal-trigger-login").click(function () {
+            $("#mobile-demo").css("transform", "translateX(-105%)");
         });
     });
 </script>
