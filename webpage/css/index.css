@@ -309,9 +309,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .token span{font-size: 12px;}
 }
 @media only screen
-and (min-device-width: 1024px)
+and (min-device-width: 980px)
 and (max-device-width: 1180px){
-    nav ul a{padding: 0 15px;}
+    nav ul a{padding: 0 5px!important;}
     #navbar label{margin-left: 0;}
     .r-menu{margin-left: 1vw;}
     nav{padding: 10px 0px;}
@@ -321,4 +321,10 @@ and (max-device-width: 1180px){
 and (max-device-width: 1024px){
     h1{font-size:2.5em;}
 
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .collapsible-header {font-size: 1.5em;}
 }
