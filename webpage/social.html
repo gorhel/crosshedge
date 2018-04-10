@@ -40,14 +40,25 @@
     <a class="item foursquare"><i class="fa fa-foursquare"></i><span class="count"></span>Friends</a>
     -->
 </div>
+<div class="fb-like" data-href="https://www.facebook.com/digitalreunion/?hc_ref=ARRAxQooVaElEiX8WaTiKbP92C9MIVv57WWAM2FFx82erlp78NZKA9kKCNQA5f-ss-w" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12&appId=285635384885914&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script src='js/jquery-3.2.1.min.js'></script>
 <script src="js/api-counter.js"></script>
 
 <script>
     $('#wrapper').SocialCounter({
         //Get Usernames
-        dribbble_user: 'juanv911',
+
         facebook_user: 'envato',
+        /*
+        dribbble_user: 'juanv911',
         instagram_user: 'mycss_net',
         instagram_user_sandbox: 'juanv911',
         google_plus_id: '100542012590159373204',
@@ -63,11 +74,13 @@
         foursquare_user: 'mo3aser',
         tumblr_username: 'festus915',
         twitch_username:'towelliee',
+        */
         //Get Access Tokens,keys,client_ids
+        facebook_token:'1627334644211864|3_tGe7MNSzumVcKxMyJUTqZAlz4'
+        /*
         dribbble_token: '1c73ffb7859f2c1c37450789dce2369af5caa9e18c3df1fa30485cfad79081d8',
         instagram_token:'3216680391.5a20414.d66b30dc0857473dbf9723d34b502a73',
         google_plus_key:'AIzaSyDXpwzqSs41Kp9IZj49efV3CSrVxUDAwS0',
-        facebook_token:'1627334644211864|3_tGe7MNSzumVcKxMyJUTqZAlz4',
         youtube_key:'AIzaSyDXpwzqSs41Kp9IZj49efV3CSrVxUDAwS0',
         twitch_client_id:'2yllx3nbpx9wa5intlhan6p9i8pi2h7',
         soundcloud_client_id:'5a9f3b72a723aac2cffb7ee684a80d9b',
@@ -75,6 +88,8 @@
         behance_client_id:'mpX9kGiySp7YxrTCCw6FwNmKvDLNAt49',
         foursquare_token:'GCPMWQPBATX1H23NQ4FRURC1SXYC4MPNJ0KWRKXO5JAOEIDI',
         linkedin_oauth: 'AQXo4yikouZnzWkUYZCOnVCKnhAALbi0-eSrlWTORI85p8dHCx_n0lnP7sG1k8HrOqPPvQ6Nkf0iAII2Ui34fsFr6IGcclgDnIsK_Z1Olx3vX-cJNfvuQoqNKFtUvhJOLE43iQQy0y1NDJXIDJV4nTPQCdezuaqAIEbjgcFa8tWsGmSZgtI'
+
+        */
     });
 </script>
 </body>
