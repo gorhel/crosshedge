@@ -331,11 +331,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .collapsible-header {font-size: 1.5em;}
 }
 
-@media only screen and (min-width: 992px) and (max-width:1130px){
+@media only screen and (min-width: 992px) and (max-width:1315px){
 html {font-size: 14.5px;}
     body{color: black!important;}
-    nav ul a{padding: 0 5px!important;}
-    .item-menu{padding-left: 40px!important;}
+    nav ul a{padding: 0 0.5vw!important;}
+    .item-menu{padding-left: 2vw!important;}
     #navbar label {margin-left: 1vw;}
     .r-menu {margin-left: 2vw;}
     nav{padding: 10px 0px;}
