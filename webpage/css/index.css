@@ -61,7 +61,7 @@ h2{font-size: 2.6em;font-family: RobotoMono-Regular;margin-bottom: 80px;}
 #counter {border:1px solid #00DFEB; color: #FFF; border-radius: 5px;}
 #counter .table_cell{display: inline-flex;}
 .table_row{display: flex;justify-content: space-around;font-size:26px;}
-.imgsvg{margin-top: 20vh;}
+.imgsvg{}
 
 /*whatis*/
 .landing2 img{margin:15% 0%;}
