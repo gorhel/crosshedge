@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cross Token</title>
+    <meta type="description" content="">
+    <!--Import Google Icon Font-->
+
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body id="crosstokenpage">
+
+<!--navbar-->
+<div id="navbar">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper row">
+                <div class="col s2">
+                    <a href="index.html" class="brand-logo">
+                        <img src="media/Logo_cyan_white.png" alt="">
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                </div>
+                <div class="col s10">
+                    <div class="row">
+                        <div class="col s7">
+                            <ul class="item-menu hide-on-med-and-down">
+                                <li><a href="index.html#about">About</a></li>
+                                <li><a href="index.html#benefits">Benefits</a></li>
+                                <li><a href="index.html#team">Team</a></li>
+                                <li><a href="index.html#roadmap">Roadmap</a></li>
+                                <li><a href="index.html#papers">Papers</a></li>
+                                <li><a class="activea" href="crosstoken.html">Cross Token</a></li>
+                                <li><a href="https://www.medium.com/@crosshedge" target="_blank">Blog</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col s5">
+
+                            <ul class="item-menu hide-on-med-and-down">
+                                <div class="col s12 userstate">
+                                    <li class="connecteduser"><label>John Saby</label></li>
+                                    <li class="r-menu loginb">
+                                        <a class="btn modal-trigger-login" href="#modallogin">Log in</a>
+                                    </li>
+                                    <li class="r-menu logoutb   ">
+                                        <a class="btn">Log out</a>
+                                    </li>
+                                    <li class="r-menu">
+                                        <a class="dropdown-trigger"  data-target="dropdown1">FR <i class="large material-icons">arrow_drop_down</i></a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#langEn">EN</a></li>
+                        <li><a href="#langIt">IT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li class="pseudo"><label>John Saby</label></li>
+        <li class="r-menu-m loginb"><a class=" btn modal-trigger-login" href="#modallogin">Log in</a> </li>
+        <li class="r-menu-m logoutb"><a class=" btn">Log out</a> </li>
+        <li class="r-menu-m"><a class=" dropdown-trigger" href="#fr" data-target="dropdown2">FR <i class="large material-icons">arrow_drop_down</i></a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#benefits">Benefits</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#roadmap">Roadmap</a></li>
+        <li><a href="index.html#papers">Papers</a></li>
+        <li><a class="activea" href="crosstoken.html">Cross Token</a></li>
+        <li><a href="https://www.medium.com/@crosshedge" target="_blank">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+    </ul>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#langEnMob">EN </a></li>
+        <li><a href="#langItMob">IT </a></li>
+    </ul>
+</div>
+<!--navbar-->
+
+<!--sidesocial-->
+<div class="sidesocial hide-on-med-and-down">
+    <div class="socials">
+        <a href="https://www.facebook.com/CrossHedgeICO" target="_blank">
+            <div class="social facebooksocial">
+                <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
+                <span class="followers">54.000</span>
+            </div>
+        </a>
+
+        <a href="https://twitter.com/Cross_Hedge" target="_blank">
+            <div class="social twittersocial">
+                <img src="https://icongr.am/material/twitter.svg?size=32&amp;color=00DFEB" alt="">
+                <span class="followers">54.000</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="social instagramsocial">
+                <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=00DFEB" alt="">
+                <span class="followers">54.000</span>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UC6idU3aztI9qmg30fLzoe1Q" target="_blank">
+            <div class="social youtubesocial">
+                <img src="https://icongr.am/material/youtube-play.svg?size=32&color=00DFEB" alt="">
+                <span class="followers">54.000</span>
+            </div>
+        </a>
+
+        <a href="https://www.linkedin.com/company/cross-hedge/" target="_blank">
+            <div class="social linkedinsocial">
+                <img src="https://icongr.am/entypo/linkedin.svg?size=32&color=00DFEB" alt="">
+                <span class="followers">100 K</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="social redditsocial">
+                <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
+                <span class="followers">500 K</span>
+            </div>
+        </a>
+
+        <a href="https://t.me/CrossHedge_ICO" target="_blank">
+            <div class="social telegramsocial">
+                <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
+                <span class="followers">1 M</span>
+            </div>
+        </a>
+    </div>
+    <img src="media/sidechat.png" alt="">
+
+</div>
+<!--sidesocial-->
+
+<!--signIn-->
+
+<div class="log_sign_in row  modal" id="modallogin">
+    <div class="modal-content">
+        <div class="col s12 closelog">
+            <img src="media/close.png" alt="" class="closelog">
+        </div>
+        <div class="wrapper col l4 offset-l4 m4 offset-m4 s10 offset-s1">
+            <ul id="tabs-swipe-demo" class="tabs tablogsign">
+                <li class="tab col s3 "><a class="active" href="#login_form">Log In</a></li>
+                <li class="tab col s3 "><a href="#signin_form">Sign Up</a></li>
+            </ul>
+
+            <!--log-->
+            <div id="login_form" class="col s12">
+                <div id="login-page" class="row">
+                    <div class="col s12">
+                        <form class="login-form">
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-social-person-outline prefix"></i>
+                                    <input id="username" type="text">
+                                    <label for="username" class="center-align">Email</label>
+                                </div>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="password" type="password">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s6 m6 l6  row login-text">
+                                    <div class="s12">
+                                        <p class="">
+                                            <a href="page-forgot-password.html">Forgot password ?</a>
+                                        </p>
+                                    </div>
+                                    <div class="s12 rememberme round">
+                                        <p>
+                                            <label for="remember-me">
+                                                <input type="checkbox" id="remember-me"/>
+                                                <span>Remember me</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s6 m6 l6 button-log">
+                                    <a href="index.html" class="btn col s12">Log In</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--sign-->
+            <div id="signin_form" class="col s12 ">
+                <div id="signin-page" class="row">
+                    <div class="col s12">
+                        <form class="login-form">
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-social-person-outline prefix"></i>
+                                    <input id="usernamesign" type="text">
+                                    <label for="username" class="center-align">Email</label>
+                                </div>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="passwordsign" type="password">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="passwordsignrepeat" type="password">
+                                    <label for="password">Repeat Password</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 button-log button-sign">
+                                    <a href="index.html" class="btn  col s12">Sign Up</a>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col s6">
+                                    <img src="media/goconnect.png" alt="">
+                                </div>
+
+                                <div class="col s6">
+                                    <img src="media/fbconnect.png" alt="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--LogIn-->
+
+    <!--welcome-->
+        <div class="landing7 crosspage" id="cross-token-A2-KYC">
+            <div class="row">
+                <div class="col offset-s2 s8">
+                    <div class="row">
+                        <div class="col offset-s1 s10">
+                            <div class="crossp">
+                                <img src="media/step1-cross.png" alt="">
+                            </div>
+                            <p class="crossp">
+                                Please fill up the form with your personal Information.
+                                <br>
+                                All fields marked with * are mandatory.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form action="grep.html" method="post" class="col s12 kycform">
+                            <div class="row">
+                                <h6 class="col offset-s3 s9">Your Personal Information </h6>
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                    <label for="firstname" class="col l3 m3 s12">First Name*</label>
+                                    <input type="text" placeholder="First Name" id="firstname" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="lastname" class="col l3 m3 s12">Last Name*</label>
+                                        <input type="text" placeholder="Last Name" id="lastname" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                <label for="email" class="col l3 m3 s12">Email*</label>
+                                <input type="email" placeholder="Email" id="email" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="mobileNumber" class="col l3 m3 s12">Mobile Number* </label>
+                                        <input type="tel" placeholder="Mobile Number" id="mobileNumber" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="nationality" class="col l3 m3 s12">Nationality*</label>
+                                        <input type="text" placeholder="Nationality" id="nationality" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="country" class="col l3 m3 s12">Country of Residence*</label>
+                                        <input type="text" placeholder="Country of Residence" id="country" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="birthDate" class="col l3 m3 s12">Birth Date*</label>
+                                        <input type="date" placeholder="Birth Date" id="birthDate" class="col l8 m8offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="cityBirth" class="col l3 m3 s12">City of Birth*</label>
+                                        <input type="date" placeholder="City of Birth" id="cityBirth" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="countryBirth" class="col l3 m3 s12">Country of Birth*</label>
+                                        <input type="text" placeholder="Country of Birth" id="countryBirth" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+                                <div class="input-field col s12">
+                                    <div class="row">
+
+                                        <div class="col offset-l3 l8 offset-m3 m8 offset-s2 s8">
+                                                <label>
+                                                    <input name="group1" type="checkbox">
+                                                    <span>I participate as a company</span>
+                                                </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="companyName" class="col l3 m3 s12">Company Name* </label>
+                                        <input type="text" placeholder="Company Name*" id="companyName" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <h6 class="col offset-s3 s9">Your Adress (personal or Company)</h6>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="adress" class="col l3 m3 s12">Adress*</label>
+                                        <input type="text" placeholder="Adress 1" id="adress" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <input type="text" placeholder="Adress 2" id="adress2" class="col offset-l3 offset-m3 l8 m8 offset-s1 s10">
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="zipCodeAdress" class="col l3 m3 s12">Zip Code*</label>
+                                        <input type="text" placeholder="Zip Code" id="zipCodeAdress" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="cityAdress" class="col l3 m3 s12">City*</label>
+                                        <input type="text" placeholder="City" id="cityAdress" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="stateAdress" class="col l3 m3 s12">State*</label>
+                                        <input type="text" placeholder="State" id="stateAdress" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="countryAdress" class="col l3 m3 s12">Country*</label>
+                                        <input type="text" placeholder="Country" id="countryAdress" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <h6 class="col offset-s3 s9">Your Profession & Investment</h6>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="profession" class="col l3 m3 s12">Profession*</label>
+                                        <input type="text" placeholder="Profession" id="profession" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="company" class="col l3 m3 s12">Company*</label>
+                                        <input type="text" placeholder="Company" id="company" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="annualSalary" class="col l3 m3 s12">Annual Salary*</label>
+                                        <input type="text" placeholder="Annual Salary" id="annualSalary" class="col l8 m8 offset-s1 s10" required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <label for="investmentProvenance" class="col l3 m3 s12">Investment Provenance*</label>
+                                    <div class="col  l4 m4 offset-s2 s8 input-radio">
+                                        <label>
+                                            <input name="investmentProvenance" type="radio" value="personal savings" required >
+                                            <span>Personal Savings</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="col offset-l3 l8 offset-m3 m8 offset-s2 s8 input-radio">
+                                        <label>
+                                            <input name="investmentProvenance" value="company account" type="radio">
+                                            <span>Company Account</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="col offset-l3 l3 offset-m3 m8 offset-s2 s8 input-radio">
+                                        <label>
+                                            <input name="investmentProvenance"  value="other" type="radio">
+                                            <span>Other, precise</span>
+                                        </label>
+                                    </div>
+                                    <input type="text" placeholder="Annual Salary" id="investmentProvenance" class="col l3 m3 offset-s1 s10">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <h6 class="col offset-s3 s9">ID Document Upload</h6>
+                                <p class="col offset-s3 s6">
+                                    Please upload a copy of a <b>valid ID document</b> in good quality.
+                                    <br>
+                                    All numbers and texts must be <b>readable</b> to be checked properly.
+                                    <br>
+                                    Maximum size for each file is <b>1 Mo</b>.
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <div class="row">
+                                        <label for="typeDocument" class="col l3 m3 s12">Type of document</label>
+
+                                        <div class="col  l4 m4 offset-s2 s8 input-radio">
+                                            <label>
+                                                <input class="passportUpload" id="typeDocument" name="typeDocument" type="radio" value="passport">
+                                                <span>Passport</span>
+                                            </label>
+                                        </div>
+
+                                        <div class="col offset-l3 l8 offset-m3 m8 offset-s2 s8 input-radio">
+                                            <label>
+                                                <input class="idUpload" id="typeDocument" name="typeDocument" type="radio" value="nationalID">
+                                                <span>National ID</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12 passport-field">
+                                    <div class="file-field input-field">
+                                        <span class="col s3">Upload my passeport</span>
+                                        <div class="col s5">
+                                            <input type="file">
+                                            <div class="file-path-wrapper ">
+                                                <input class="file-path validate passport-input" type="text" name="passport">
+                                            </div>
+                                        </div>
+                                        <div class="col s2 imguploadcheck passport-check">
+                                            <img src="media/check.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12 id-field">
+                                    <div class="file-field input-field">
+                                        <span class="col s3">Upload my ID (Recto)</span>
+                                        <div class="col s5">
+                                            <input type="file">
+                                            <div class="file-path-wrapper ">
+                                                <input class="file-path validate id-recto-input" type="text" name="idRecto">
+                                            </div>
+                                        </div>
+                                        <div class="col s2 imguploadcheck id-recto-check">
+                                            <img src="media/check.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="input-field col s12 id-field">
+                                    <div class="file-field input-field">
+                                        <span class="col s3">Upload my ID (Verso)</span>
+                                        <div class="col s5">
+                                            <input type="file">
+                                            <div class="file-path-wrapper ">
+                                                <input class="file-path validate id-verso-input" type="text" name="idVerso">
+                                            </div>
+                                        </div>
+                                        <div class="col s2 imguploadcheck id-verso-check">
+                                            <img src="media/check.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col offset-l4 l3 offset-m4 m4 offset-s2 s6 company">
+                                    <input type="submit" value="Submit KYC" class="btn waves-effect waves-light btn-errorA2">
+                                </div>
+
+                                <div class="col l5 offset-m3 m3 offset-s2 s6 errorA2">
+                                    <p class="crosspcolor3">Oups, look like you didn’t fill in all the *fields.<br> Please check and retry!</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--welcome-->
+
+<footer class="page-footer">
+    <div class="row">
+        <div class="col s12  m2 offset-m1 l1 offset-l1 logo">
+            <img src="media/Logo_cyan_white.png" alt="">
+        </div>
+        <div class="col l2 m4 s11 offset-s1 offset-l1 ">
+            <h5>Contact</h5>
+            <a href="mailto:Contact@cross-hedge.com">Contact@cross-hedge.com</a>
+            <p>
+                Cross Hedge HQ</br>
+                128 Rue de la Boétie</br>
+                75008 Paris</br>
+                FRANCE
+            </p>
+        </div>
+
+
+        <div class="col l2 m4 s11 offset-s1 ">
+            <h5>Sitemap</h5>
+            <div class="row">
+                <div class="col s6 ">
+                    <ul>
+                        <li><a class="" href="index.html#about">About</a></li>
+                        <li><a class="" href="index.html#benefits">Benefits</a></li>
+                        <li><a class="" href="index.html#team">Team</a></li>
+                        <li><a class="" href="index.html#roadmap">Road Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col s6 ">
+                    <ul>
+                        <li><a class="" href="index.html#papers">Papers</a></li>
+                        <li><a class="" href="crosstoken.html">Cross Token</a></li>
+                        <li><a class="" href="https://www.medium.com/@cross-hedge" target="_blank">Blog</a></li>
+                        <li><a class="" href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l4 m10 s10 offset-m1 offset-s1">
+            <h5>Be part of the community</h5>
+            <div class="rsfooter">
+                <a href="https://www.facebook.com/CrossHedgeICO" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/material/facebook.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+
+                <a href="https://twitter.com/Cross_Hedge" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/material/twitter.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#instagram" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/material/instagram.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UC6idU3aztI9qmg30fLzoe1Q"  target="_blank"class="trans-effect">
+                    <img src="https://icongr.am/material/youtube-play.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="https://www.linkedin.com/company/cross-hedge/" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/entypo/linkedin.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+                <a href="#reddit" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/simple/reddit.svg?size=32&color=00DFEB" alt="">
+                </a>
+                <a href="https://t.me/CrossHedge_ICO" target="_blank" class="trans-effect">
+                    <img src="https://icongr.am/material/telegram.svg?size=32&amp;color=00DFEB" alt="">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <div class="copyright">Policy Privacy © 2017 CROSS HEDGE All Rights Reserved
+    </div>
+</footer>
+<!--JavaScript at end of body for optimized loading-->
+<!-- Compiled and minified JavaScript -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/jquery.leanModal.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+
+        $('.collapsible').collapsible();
+        $('.tabs').tabs();
+        $('.modal-trigger-login').leanModal();
+        $('.modal-trigger-login').click(function() {
+            $('.pseudo').show();
+            $('.connecteduser').show();
+            $('#navbar').removeClass( "navbar-fixed");
+        });
+        $(".dropdown-trigger").dropdown();
+        $('.sidenav').sidenav();
+        $('.closelog').click(function() {
+            $('.log_sign_in').hide();
+            $('body').css('overflow','initial');
+            $('#navbar').addClass( "navbar-fixed");
+            $('#lean_overlay').css("display", "none");
+            $(".sidenav-overlay").css("display", "none");
+            $('.loginb').hide();
+            $('.connecteduser').show();
+            $('.logoutb').show();
+            $('.pseudo').show();
+        });
+        $('.loginb').click(function() {
+            $('.log_sign_in').show();
+
+            $('html').css('overflow','hidden');
+        });
+
+        $(".modal-trigger-login").click(function () {
+            $("#mobile-demo").css("transform", "translateX(-105%)");
+        });
+
+
+        /*A2-KYC */
+        //choix upload passeport ou id
+        $('.passportUpload').click(function() {
+            if($('.passportUpload').is(':checked')) {
+                $('.passport-field').css('display', 'block');
+                $('.id-field').css('display', 'none');
+            }
+        });
+
+        $('.idUpload').click(function() {
+            if($('.idUpload').is(':checked')) {
+                $('.id-field').css('display', 'block');
+                $('.passport-field').css('display', 'none');
+            }
+        });
+
+
+
+        //validation des fichiers uploades
+        $(".passport-input").change(function () {
+            if ($(".passport-input").val()) {
+                $(".passport-check").css("display", "block");
+            }
+        });
+
+        $(".id-verso-input").change(function () {
+            if ($(".id-verso-input").val()) {
+                $(".id-verso-check").css("display", "block");
+            }
+        });
+
+        $(".id-recto-input").change(function () {
+            if ($(".id-recto-input").val()) {
+                $(".id-recto-check").css("display", "block");
+            }
+        });
+
+        // validation du formulaire et affichage message erreur
+        $(".btn-errorA2").click(function () {
+            if( !$("#firstname").val() ||
+                !$("#lastname").val() ||
+                !$("#email").val() ||
+                !$("#mobileNumber").val() ||
+                !$("#nationality").val() ||
+                !$("#country").val() ||
+                !$("#birthDate").val() ||
+                !$("#cityBirth").val() ||
+                !$("#countryBirth").val() ||
+                !$("#companyName").val() ||
+                !$("#adress").val() ||
+                !$("#zipCodeAdress").val() ||
+                !$("#cityAdress").val() ||
+                !$("#stateAdress").val() ||
+                !$("#countryAdress").val() ||
+                !$("#profession").val() ||
+                !$("#company").val() ||
+                !$("#annualSalary").val()
+            ) {
+                $(".errorA2").css("display", "block");
+            }
+
+        });
+
+       /*A2-KYC */
+
+
+    });
+</script>
+</body>
+</html>

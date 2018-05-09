@@ -17,7 +17,6 @@ nav{background:#0C1330;height:100px;padding: 10px 30px;line-height: 30px;}
 #navbar .btn {background: transparent;}
 .landing1 p,.landing2 p, .benefit p, .faq p{text-align: justify;}
 .crossp{text-align: center;}
-.crosspage h2{color:#00DFEB!important;}
 /*
 #navbar .dropdown-trigger{color: #00DFEB;background: transparent;    border: 1px solid #00DFEB;border-radius: 5px;}
 */
@@ -217,12 +216,82 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 /*landing7 faq*/
 
 /*crosstoken*/
+
+.crosspage h2{text-align:center;}
+.crosspage label{font-size:16px;    line-height: 5em;}
+.crossBold{font-family: Roboto-Bold;}
+.token h6{font-family:"Roboto Mono";color:#00DFEB;font-size:2.333em;font-weight: bold;}
+.crosspage ul{text-align: left;color: #2252E3;list-style-image: url('list.png');}
+#cross-token-A1-KYC h6,
+#cross-token-A2-KYC h6,
+#cross-token-B21-stellar-account h6,
+#cross-token-B31-stellar-account h6,
+#cross-token-B22-stellar-account h6,
+#cross-token-B32-stellar-account h6{font-family: RobotoMono-Regular;margin-top: 20px;color: rgb(0, 231, 240);font-size: 2.333em;text-align: center;}
+#cross-token-A1-KYC img, #cross-token-A2-KYC img, #cross-token-B21-stellar-account img, #cross-token-B31-stellar-account img,
+#cross-token-B32-stellar-account img{margin:0;}
+#cross-token-A1-KYC, #cross-token-A2-KYC [type="button"], [type="submit"]{ background: none;  color: #2252E3;}
+#cross-token-A2-KYC [type="checkbox"]:not(:checked), [type="checkbox"]:checked{    position: inherit;opacity: 1;}
+#modal-confirmation-B33{
+    position: fixed;
+    z-index:1000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #2252E3;
+    opacity:.9;
+    display: none;
+}
+#modal-confirmation-B33 img{margin-top: 5vh;}
+#modal-confirmation-B33 p{
+    margin-top: 15%;
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.stellarImg{margin:0!important;}
+.file-field input.file-path{width:20vw;height:50px;}
+.imguploadcheck img{margin:0;width:50px!important;}
+#cross-token-A2-KYC [type="radio"]:not(:checked)+span, #cross-token-A2-KYC [type="radio"]:checked+span{display: inherit;}
+.passport-field, .id-field{display: none;}
+.input-radio{height: 60px;margin-top: -15px;}
+.moneychange{font-family:Roboto-Bold; font-size:2em;color:#00DFEB;}
+.publickey, .rib{border:1px solid #2252E3;font-size: 16px;text-transform: uppercase;color:#2252E3;}
+.rib{padding-top:20px!important;padding-bottom:20px!important;}
+.rib span{text-transform: none;color:#00DFEB;font-size: small;}
+.transactionlist tbody tr{
+    border-bottom: 10px solid #fff;
+    background: -webkit-linear-gradient(to right, #b8f6f9, #fff);
+    background: linear-gradient(to right, #b8f6f9, #fff);
+    color: #2252E3;}
+.transactionlist th{font-weight:100;}
+/*color*/
+.crosspcolor1{color:#2252E3!important;}
+.crosspcolor2{color:#00DFEB!important;}
+.crosspcolor3{color:#FFCB05!important;}
+/*etat*/
+
+/*form*/
+.kycform [type="radio"]:not(:checked)+span, [type="radio"]:checked+span{margin-top:-25px;}
+.kycform label{color:#2252E3;text-align: right;margin-top: -15px;height:50px;}
+.kycform .file-field span{color:#2252E3;text-align: right;height:50px;}
+.kycform h6{text-align: left!important;font-family: Roboto-Bold!important;}
+.kycform input[type=text]:not(.browser-default),
+.kycform input[type=email]:not(.browser-default),
+.kycform input[type=date]:not(.browser-default),
+.kycform input[type=tel]:not(.browser-default){box-shadow:1px 5px 10px 0px #707070;border-radius: 5px;    padding-left: 20px;}
+.kycform .input-field{height: 50px;}
+/*form*/
 .crosstokenbloc{border-radius: 20px; background:#00DFEB;width: 100%;}
 .crosstokenbloc p{font-family: RobotoMono-Regular;text-align: center;font-size: 18px;line-height: 30px;padding: 0px 30px;}
 .crosslinks a{text-align: right; color:#2252E3;font-size: 12px;}
-.token{cursor:pointer;text-align: center;}
-.token span{color:#2252E3;font-family: Roboto-Regular;font-size: 16px;background: #fff;height: 50px;    display: table-cell;vertical-align:middle;border-radius:5px; width:30vw;  text-align: center;}
-.token span:hover, .token.active span{color:#fff;background: #2252E3;}
+.token{cursor:default;text-align: center;}
+.token span{border: 1px solid #2252E3;color:#2252E3;font-family: Roboto-Regular;font-size: 16px;height: 50px;    padding-top: 15px;    display:block;vertical-align:middle;border-radius:5px; width:100%;  text-align: center;}
+/*.token span:hover,*/ .token.active span{background: #00DFEB;}
 .crosstokenlists{overflow: scroll;height: 210px;}
 .crosstokenlist{margin:20px 0;}
 .crosstokenlist label{background: #00DFEB;    padding: 10px;margin: auto;  /* fallback for old browsers */
@@ -232,7 +301,7 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
     height: 50px;
     border-radius: 5px;color:#2252E3;
 }
-.crosstokenlist [type="radio"]:not(:checked)+span, [type="radio"]:checked+span{display: block;text-align: right;padding-right: 10px;}
+.crosstokenlist [type="radio"]:not(:checked)+span, [type="radio"]:checked+span{display: block;padding-right: 10px;}
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{color:#2252E3;}
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{color:#2252E3;}
 .crosstokenlisy [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after{    border: 2px solid #2252E3;}
@@ -245,6 +314,9 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
     background-color:#2252E3;
 }
+#cross-token-A1-KYC [type="radio"]:not(:checked)+span, [type="radio"]:checked+span{text-align: left;}
+#cross-token-A2-KYC [type="checkbox"]+span:not(.lever):before,
+#cross-token-A2-KYC [type="checkbox"]:not(.filled-in)+span:not(.lever):after{content: none;}
 .wallets{
     color: #2252E3;
     font-size: 12px;    margin-top: 40px;
@@ -258,11 +330,6 @@ footer{background-color:#0C1330!important;color:#00DFEB!important; }
 #newsletter .btn{height:3rem;border-radius: 5px;margin-top: 15px;}
 .margin-zero{margin-left:0!important;}
 .input-field.col .prefix ~ label{color: #2252E3;}
-#newsletter [type="button"], [type="submit"] {
-    background: #2252E3!important;
-    color: #fff!important;
-    font-family: RobotoMono-Regular;
-}
 span.puce {
     display: list-item;
     list-style-type: disc;
@@ -292,6 +359,39 @@ span.puce {
 .modal{background-color:transparent;    max-height: 100vh;}
 #modallogin{top:0!important;}
 #modallogin .modal-content{padding: 0;}
+
+
+.stellarAccountForm input[type=text]:not(.browser-default),
+.stellarAccountForm22 input[type=text]:not(.browser-default){
+    border-radius:5px;padding-left: 20px;border:1px solid #2252E3;}
+.stellarAccountForm .crosstokenlist{margin-bottom: 0;}
+.stellarAccountForm p{margin-bottom: 0;margin-top:0;font-size: 12px;line-height: 15px;}
+.stellarAccountForm a{color:#2252E3;}
+
+#cross-token-A1-KYC table{margin-left: 0;}
+.transactionlist tr{border:none;}
+.zipfiles{color:#FF2003;background:#F556E9;opacity:.6;}
+#cross-token-A1-KYC .collapsible-body{padding-left: 0; padding-right: 0;}
+#cross-token-A1-KYC b {margin: 20px 0; }
+.stellartermspan{ color: #68C86F;}
+.getwalletspan{background: #28B5E5;color: #fff;padding: 5px;border-radius: 2px;}
+.signupspan, .newaccountmspan, .generatekeypair, .logwithkeyspan{background:#68C86F;color:#fff;padding: 5px;border-radius: 2px;}
+#cross-token-B22-stellar-account .stellarAccountForm {font-size:12px;}
+    /*errors*/
+.errorB11, .errorb22{font-size: 16px!important;margin-top:30px!important;text-align:center;}
+.collapsible li{list-style-image: none;  }
+#cross-token-B21-stellar-account .collapsible, #cross-token-B31-stellar-account .collapsible{margin-top: 5px!important;}
+#cross-token-B22-stellar-account [type="radio"]:not(:checked)+span, [type="radio"]:checked+span {  text-align:left;margin-top:0px;}
+#cross-token-B21-stellar-account a, #cross-token-B31-stellar-account a{color:#2252E3!important;}
+#cross-token-B21-stellar-account b, #cross-token-B1-stellar-account b{margin: 20px 0;}
+.errorA1, .errorA2, .passport-check, .id-recto-check, .id-verso-check,
+.errorB11, .errorB22, .errorB32{display: none;}
+.errorB32{text-align: center;}
+
+
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"]{height: 100%;width:100%;}
+/*errors*/
+
 /*crosstoken*/
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
