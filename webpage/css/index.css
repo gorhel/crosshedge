@@ -385,8 +385,8 @@ span.puce {
 #cross-token-B21-stellar-account a, #cross-token-B31-stellar-account a{color:#2252E3!important;}
 #cross-token-B21-stellar-account b, #cross-token-B1-stellar-account b{margin: 20px 0;}
 .errorA1, .errorA2, .passport-check, .id-recto-check, .id-verso-check,
-.errorB11, .errorB22, .errorB32{display: none;}
-.errorB32{text-align: center;}
+.errorB11, .errorB22, .errorB32{display: none;text-align: center;}
+
 
 
 .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"]{height: 100%;width:100%;}
@@ -427,6 +427,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .card .card-content p {height: 7vh;}
     .token span{font-size: 12px;}
     h1{font-size:2.3em;}
+    .crosstokenlist label{height: 60px;}
+    #cross-token-C1 img{    margin-top: 30px!important;}
+    #cross-token-C1-rib img{    margin-top: 30px!important;}
+    .rib, .rib span {font-size: 12px;}
 }
 @media only screen
 and (min-width: 980px)
@@ -448,6 +452,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     #newsletter [type="button"], [type="submit"] {font-size: .5em;
         font-family: RobotoMono-Regular;
     }
+    .crosstokenlist label{height: 70px;}
+    #cross-token-C1 img, #cross-token-C1-rib img{    margin-top: 40px!important;}
+    #cross-token-C1 h2, #cross-token-C1-rib h2{font-size: 2em;}
+    .rib, .rib span {font-size: 9px;}
+    .kycform label {
+        text-align: left;
+    }
+
+    .investmentProvenance{margin-top: 20px!important;}
+#cross-token-A2-KYC .btn{margin-top:100px;}
+.passport-field, .id-field{margin-top: 50px;}
 }
 
 @media only screen and (min-width: 992px) and (max-width:1315px){
